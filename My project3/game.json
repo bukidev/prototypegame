@@ -11,19 +11,19 @@
     "folderProject": false,
     "linuxExecutableFilename": "",
     "macExecutableFilename": "",
-    "orientation": "landscape",
+    "orientation": "default",
     "packageName": "com.example.gamename",
     "projectFile": "C:\\Users\\Bukhari29\\Desktop\\prototypegame\\My project3\\game.json",
-    "sizeOnStartupMode": "adaptWidth",
+    "sizeOnStartupMode": "",
     "useExternalSourceFiles": false,
-    "version": "1.0.0",
+    "version": "0.0.1",
     "winExecutableFilename": "",
     "winExecutableIconFile": "",
-    "name": "Project",
-    "author": "",
+    "name": "Bunny Girl's Adventure",
+    "author": "Chainuwat Chuaykongtong",
     "windowWidth": 480,
     "windowHeight": 270,
-    "latestCompilationDirectory": "C:\\Users\\Bukhari29\\Desktop\\pc",
+    "latestCompilationDirectory": "C:\\Users\\Bukhari29\\Desktop\\bukidev.github.io\\games\\platform",
     "maxFPS": 60,
     "minFPS": 10,
     "verticalSync": false,
@@ -326,24 +326,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/environment/layers/background.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\environment\\layers\\background.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/environment/layers/middleground.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\environment\\layers\\middleground.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "map_level_1.png",
         "kind": "image",
         "metadata": "",
@@ -468,15 +450,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "NewObject-1-0.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewObject-1-0.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "NewFile-1.png",
         "kind": "image",
         "metadata": "",
@@ -486,28 +459,10 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "NewFile-1-0.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewFile-1-0.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "NewObject2-1.png",
         "kind": "image",
         "metadata": "",
         "name": "NewObject2-1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewFile-1-2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewFile-1-2.png",
         "smoothed": true,
         "userAdded": true
       },
@@ -558,89 +513,69 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/environment/props/tree.png",
+        "file": "assets/logo.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\environment\\props\\tree.png",
+        "name": "assets\\logo.png",
         "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/environment/props/house.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\environment\\props\\house.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/environment/layers/tileset.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\environment\\layers\\tileset.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewObject2-1-4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewObject2-1-4.png",
-        "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/environment/props/rock.png",
+        "file": "NewObject-1-0.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\environment\\props\\rock.png",
+        "name": "NewObject-1-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/font/ZoodHarit8Bit.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "assets\\font\\ZoodHarit8Bit.ttf",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/bg/main_menu_bg.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\bg\\main_menu_bg.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/gamelogo/gamelogo-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\gamelogo\\gamelogo-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/button/startButton.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\button\\startButton.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/button/startButton-hover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\button\\startButton-hover.png",
         "smoothed": false,
         "userAdded": true
       }
     ],
     "resourceFolders": []
   },
-  "objects": [
-    {
-      "height": 32,
-      "name": "ladder",
-      "texture": "NewFile-1-0.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "behaviors": [
-        {
-          "canBeGrabbed": true,
-          "name": "Platform",
-          "platformType": "Ladder",
-          "type": "PlatformBehavior::PlatformBehavior",
-          "yGrabOffset": 0
-        }
-      ]
-    },
-    {
-      "height": 32,
-      "name": "bg2",
-      "texture": "assets\\environment\\layers\\middleground.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "behaviors": []
-    },
-    {
-      "height": 32,
-      "name": "bg1",
-      "texture": "assets\\environment\\layers\\background.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "behaviors": []
-    }
-  ],
+  "objects": [],
   "objectsGroups": [],
   "variables": [
     {
@@ -649,6 +584,693 @@
     }
   ],
   "layouts": [
+    {
+      "b": 255,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "SplashScreen",
+      "name": "SplashScreen",
+      "oglFOV": 90,
+      "oglZFar": 500,
+      "oglZNear": 1,
+      "r": 255,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 255,
+      "uiSettings": {
+        "grid": false,
+        "gridB": 255,
+        "gridG": 180,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridR": 158,
+        "gridWidth": 32,
+        "snap": true,
+        "windowMask": false,
+        "zoomFactor": 1
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 100,
+          "layer": "",
+          "locked": false,
+          "name": "companyLogo",
+          "width": 100,
+          "x": 176,
+          "y": 86,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "name": "companyLogo",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\logo.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "companyLogo",
+                "=",
+                "SceneWindowWidth()/2 - 50",
+                "=",
+                "SceneWindowHeight()/2 - 50"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Opacity"
+              },
+              "parameters": [
+                "companyLogo",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Opacity"
+              },
+              "parameters": [
+                "companyLogo",
+                "+",
+                "TimeDelta()*50"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Opacity"
+              },
+              "parameters": [
+                "companyLogo",
+                ">=",
+                "255"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"MainMenu\"",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ],
+      "layers": [
+        {
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior"
+        }
+      ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "MainMenu",
+      "name": "MainMenu",
+      "oglFOV": 90,
+      "oglZFar": 500,
+      "oglZNear": 1,
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridB": 255,
+        "gridG": 180,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridR": 158,
+        "gridWidth": 32,
+        "snap": true,
+        "windowMask": false,
+        "zoomFactor": 1
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "mainMenuBg",
+          "width": 0,
+          "x": -195,
+          "y": -1,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 69,
+          "layer": "",
+          "locked": false,
+          "name": "gameLogo",
+          "width": 251,
+          "x": 113,
+          "y": 15,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "startBtn",
+          "width": 0,
+          "x": 173,
+          "y": 134,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "name": "mainMenuBg",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\bg\\main_menu_bg.jpg",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "gameLogo",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\gamelogo\\gamelogo-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "startBtn",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "hover",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\button\\startButton-hover.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\button\\startButton.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "assets\\sound\\Patriotic_March.ogg",
+                "1",
+                "yes",
+                "100",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "mainMenuBg",
+                "=",
+                "SceneWindowWidth()/2 - mainMenuBg.Width()/2",
+                "=",
+                "SceneWindowHeight()/2 - mainMenuBg.Height()/2"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreX"
+              },
+              "parameters": [
+                "gameLogo",
+                "=",
+                "SceneWindowWidth()/2 - gameLogo.Width()/2"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreX"
+              },
+              "parameters": [
+                "startBtn",
+                "=",
+                "SceneWindowWidth()/2 - startBtn.Width()/2"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "for start button",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "startBtn",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "startBtn",
+                "\"hover\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisBouton"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Level01\"",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "startBtn",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "startBtn",
+                "\"idle\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": []
+        }
+      ],
+      "layers": [
+        {
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": []
+    },
     {
       "b": 22,
       "disableInputWhenNotFocused": true,
@@ -709,36 +1331,6 @@
           "x": 240,
           "y": 160,
           "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 226,
-          "layer": "bg1",
-          "locked": false,
-          "name": "bg1",
-          "width": 1360,
-          "x": -368,
-          "y": -21,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 239,
-          "layer": "bg2",
-          "locked": false,
-          "name": "bg2",
-          "width": 1328,
-          "x": -352,
-          "y": -20,
-          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1091,21 +1683,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 160,
-          "layer": "",
-          "locked": false,
-          "name": "ladder",
-          "width": 16,
-          "x": 1496,
-          "y": 56,
-          "zOrder": 9,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "height": 296,
           "layer": "",
           "locked": false,
@@ -1174,21 +1751,6 @@
           "x": 360,
           "y": -312,
           "zOrder": 12,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 176,
-          "layer": "",
-          "locked": false,
-          "name": "ladder",
-          "width": 16,
-          "x": 344,
-          "y": -312,
-          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2787,485 +3349,6 @@
           "type": "PlatformBehavior::PlatformBehavior"
         }
       ]
-    },
-    {
-      "b": 209,
-      "disableInputWhenNotFocused": true,
-      "mangledName": "MainMenu",
-      "name": "MainMenu",
-      "oglFOV": 90,
-      "oglZFar": 500,
-      "oglZNear": 1,
-      "r": 209,
-      "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
-      "title": "",
-      "v": 209,
-      "uiSettings": {
-        "grid": false,
-        "gridB": 255,
-        "gridG": 180,
-        "gridHeight": 32,
-        "gridOffsetX": 0,
-        "gridOffsetY": 0,
-        "gridR": 158,
-        "gridWidth": 32,
-        "snap": true,
-        "windowMask": false,
-        "zoomFactor": 1
-      },
-      "objectsGroups": [],
-      "variables": [],
-      "instances": [
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 241,
-          "layer": "",
-          "locked": false,
-          "name": "bg2",
-          "width": 704,
-          "x": -85,
-          "y": 61,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 234,
-          "layer": "",
-          "locked": false,
-          "name": "bg1",
-          "width": 745,
-          "x": -102,
-          "y": 29,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "tree",
-          "width": 0,
-          "x": 267,
-          "y": 69,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "NewObject",
-          "width": 0,
-          "x": 0,
-          "y": 105,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 91,
-          "layer": "",
-          "locked": false,
-          "name": "NewObject2",
-          "width": 704,
-          "x": -85,
-          "y": -30,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "GameLogo",
-          "width": 0,
-          "x": 28,
-          "y": 21,
-          "zOrder": 5,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "NewObject3",
-          "width": 0,
-          "x": 296,
-          "y": 242,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        }
-      ],
-      "objects": [
-        {
-          "name": "tree",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\environment\\props\\tree.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "NewObject",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\environment\\props\\house.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "NewObject2",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "NewObject2",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "NewObject2-1-4.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "bold": true,
-          "italic": true,
-          "name": "GameLogo",
-          "smoothed": true,
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "The Rabbit's Adventures",
-          "font": "",
-          "characterSize": 36,
-          "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
-          }
-        },
-        {
-          "name": "NewObject3",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\environment\\props\\rock.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      "events": [
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "Return"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Level01\"",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        }
-      ],
-      "layers": [
-        {
-          "name": "",
-          "visibility": true,
-          "cameras": [
-            {
-              "defaultSize": true,
-              "defaultViewport": true,
-              "height": 0,
-              "viewportBottom": 1,
-              "viewportLeft": 0,
-              "viewportRight": 1,
-              "viewportTop": 0,
-              "width": 0
-            }
-          ],
-          "effects": []
-        }
-      ],
-      "behaviorsSharedData": [
-        {
-          "name": "Platform",
-          "type": "PlatformBehavior::PlatformBehavior"
-        }
-      ]
-    },
-    {
-      "b": 209,
-      "disableInputWhenNotFocused": true,
-      "mangledName": "SplashScreen",
-      "name": "SplashScreen",
-      "oglFOV": 90,
-      "oglZFar": 500,
-      "oglZNear": 1,
-      "r": 209,
-      "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
-      "title": "",
-      "v": 209,
-      "uiSettings": {
-        "grid": false,
-        "gridB": 255,
-        "gridG": 180,
-        "gridHeight": 32,
-        "gridOffsetX": 0,
-        "gridOffsetY": 0,
-        "gridR": 158,
-        "gridWidth": 32,
-        "snap": true,
-        "windowMask": false,
-        "zoomFactor": 1
-      },
-      "objectsGroups": [],
-      "variables": [],
-      "instances": [],
-      "objects": [],
-      "events": [
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "DepartScene"
-              },
-              "parameters": [
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "SetFullScreen"
-              },
-              "parameters": [
-                "",
-                "yes",
-                "yes"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"MainMenu\"",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        }
-      ],
-      "layers": [
-        {
-          "name": "",
-          "visibility": true,
-          "cameras": [
-            {
-              "defaultSize": true,
-              "defaultViewport": true,
-              "height": 0,
-              "viewportBottom": 1,
-              "viewportLeft": 0,
-              "viewportRight": 1,
-              "viewportTop": 0,
-              "width": 0
-            }
-          ],
-          "effects": []
-        }
-      ],
-      "behaviorsSharedData": [
-        {
-          "name": "Platform",
-          "type": "PlatformBehavior::PlatformBehavior"
-        }
-      ]
     }
   ],
   "externalEvents": [
@@ -3291,6 +3374,18 @@
                 "playerCollis.X()-10",
                 "=",
                 "playerCollis.Y()-8"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Opacity"
+              },
+              "parameters": [
+                "playerCollis",
+                "=",
+                "0"
               ],
               "subInstructions": []
             }
@@ -3725,7 +3820,18 @@
           "disabled": false,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
           "actions": [],
           "events": []
         },
