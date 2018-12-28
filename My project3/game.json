@@ -13,7 +13,7 @@
     "macExecutableFilename": "",
     "orientation": "default",
     "packageName": "com.example.gamename",
-    "projectFile": "C:\\Users\\Bukhari29\\Desktop\\prototypegame\\My project3\\game.json",
+    "projectFile": "C:\\Users\\Book\\Desktop\\prototypegame\\My project3\\game.json",
     "sizeOnStartupMode": "",
     "useExternalSourceFiles": false,
     "version": "0.0.1",
@@ -670,6 +670,15 @@
         "name": "NewFile-1-4.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/studio-logo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\studio-logo.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -684,18 +693,18 @@
   ],
   "layouts": [
     {
-      "b": 255,
+      "b": 0,
       "disableInputWhenNotFocused": true,
       "mangledName": "SplashScreen",
       "name": "SplashScreen",
       "oglFOV": 90,
       "oglZFar": 500,
       "oglZNear": 1,
-      "r": 255,
+      "r": 0,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
       "title": "",
-      "v": 255,
+      "v": 0,
       "uiSettings": {
         "grid": false,
         "gridB": 255,
@@ -746,7 +755,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets\\logo.png",
+                      "image": "assets\\studio-logo.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -794,9 +803,9 @@
               "parameters": [
                 "companyLogo",
                 "=",
-                "SceneWindowWidth()/2 - 50",
+                "SceneWindowWidth()/2 - companyLogo.Width()/2",
                 "=",
-                "SceneWindowHeight()/2 - 50"
+                "SceneWindowHeight()/2 - companyLogo.Height()/2"
               ],
               "subInstructions": []
             },
@@ -890,12 +899,7 @@
           "effects": []
         }
       ],
-      "behaviorsSharedData": [
-        {
-          "name": "Platform",
-          "type": "PlatformBehavior::PlatformBehavior"
-        }
-      ]
+      "behaviorsSharedData": []
     },
     {
       "b": 209,
