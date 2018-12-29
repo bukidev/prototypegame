@@ -805,6 +805,69 @@
         "name": "assets\\sprites\\enemies\\slug\\slug-4.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/misc/enemy-death/enemy-death-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\misc\\enemy-death\\enemy-death-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/misc/enemy-death/enemy-death-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\misc\\enemy-death\\enemy-death-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/misc/enemy-death/enemy-death-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\misc\\enemy-death\\enemy-death-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/misc/enemy-death/enemy-death-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\misc\\enemy-death\\enemy-death-4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/misc/enemy-death/enemy-death-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\misc\\enemy-death\\enemy-death-5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/misc/enemy-death/enemy-death-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\misc\\enemy-death\\enemy-death-6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "level01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "level01.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -3969,8 +4032,8 @@
           "locked": false,
           "name": "goUp",
           "width": 16,
-          "x": 1105,
-          "y": 168,
+          "x": 1104,
+          "y": 183,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -3985,7 +4048,7 @@
           "name": "goDown",
           "width": 16,
           "x": 1104,
-          "y": 64,
+          "y": 60,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -4000,7 +4063,7 @@
           "name": "goDown",
           "width": 64,
           "x": 2704,
-          "y": 80,
+          "y": 27,
           "zOrder": 70,
           "numberProperties": [],
           "stringProperties": [],
@@ -4030,7 +4093,7 @@
           "name": "goUp",
           "width": 64,
           "x": 2704,
-          "y": 224,
+          "y": 228,
           "zOrder": 72,
           "numberProperties": [],
           "stringProperties": [],
@@ -4522,21 +4585,6 @@
           "height": 16,
           "layer": "",
           "locked": false,
-          "name": "ground",
-          "width": 16,
-          "x": 2864,
-          "y": 160,
-          "zOrder": 77,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 16,
-          "layer": "",
-          "locked": false,
           "name": "star",
           "width": 16,
           "x": 2864,
@@ -4929,7 +4977,7 @@
           "locked": false,
           "name": "goLeft",
           "width": 16,
-          "x": 1792,
+          "x": 1787,
           "y": 208,
           "zOrder": 81,
           "numberProperties": [],
@@ -4944,7 +4992,7 @@
           "locked": false,
           "name": "goRight",
           "width": 16,
-          "x": 1536,
+          "x": 1552,
           "y": 208,
           "zOrder": 82,
           "numberProperties": [],
@@ -4974,7 +5022,7 @@
           "locked": false,
           "name": "goRight",
           "width": 16,
-          "x": 1808,
+          "x": 1812,
           "y": 208,
           "zOrder": 84,
           "numberProperties": [],
@@ -4989,7 +5037,7 @@
           "locked": false,
           "name": "goLeft",
           "width": 16,
-          "x": 1920,
+          "x": 1914,
           "y": 208,
           "zOrder": 85,
           "numberProperties": [],
@@ -5034,7 +5082,7 @@
           "locked": false,
           "name": "goRight",
           "width": 16,
-          "x": 2224,
+          "x": 2229,
           "y": 64,
           "zOrder": 88,
           "numberProperties": [],
@@ -5049,7 +5097,7 @@
           "locked": false,
           "name": "goLeft",
           "width": 16,
-          "x": 2416,
+          "x": 2411,
           "y": 64,
           "zOrder": 89,
           "numberProperties": [],
@@ -5094,7 +5142,7 @@
           "locked": false,
           "name": "goLeft",
           "width": 16,
-          "x": 3600,
+          "x": 3595,
           "y": 208,
           "zOrder": 92,
           "numberProperties": [],
@@ -5127,6 +5175,21 @@
           "x": 3488,
           "y": 192,
           "zOrder": 94,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "map01",
+          "width": 0,
+          "x": -464,
+          "y": 112,
+          "zOrder": 95,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -6497,6 +6560,158 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "death",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\sprites\\misc\\enemy-death\\enemy-death-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\sprites\\misc\\enemy-death\\enemy-death-2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\sprites\\misc\\enemy-death\\enemy-death-3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\sprites\\misc\\enemy-death\\enemy-death-4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\sprites\\misc\\enemy-death\\enemy-death-5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\sprites\\misc\\enemy-death\\enemy-death-6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "map01",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "level01.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -6637,7 +6852,7 @@
         },
         {
           "name": "HUD",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": []
         },
@@ -8970,7 +9185,7 @@
               "parameters": [
                 "starPoint",
                 "+",
-                "1"
+                "10"
               ],
               "subInstructions": []
             },
@@ -9225,6 +9440,291 @@
             }
           ],
           "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "playerCollis",
+                "enemy1",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlatformBehavior::IsFalling"
+                  },
+                  "parameters": [
+                    "playerCollis",
+                    "PlatformerObject"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "enemy1",
+                    "\"death\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlatformBehavior::SetCanJump"
+                  },
+                  "parameters": [
+                    "playerCollis",
+                    "PlatformerObject"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlatformBehavior::SimulateJumpKey"
+                  },
+                  "parameters": [
+                    "playerCollis",
+                    "PlatformerObject"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "enemy1",
+                    "PlatformerObject",
+                    "yes"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlatformBehavior::Gravity"
+                  },
+                  "parameters": [
+                    "enemy1",
+                    "PlatformerObject",
+                    "=",
+                    "1500"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "enemy1",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "starPoint",
+                        "+",
+                        "50"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [],
+                  "events": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PosY"
+              },
+              "parameters": [
+                "playerCollis",
+                ">=",
+                "enemy1.Y() - playerCollis.Height() + enemy1.Height()/2"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "AnimationName"
+              },
+              "parameters": [
+                "enemy1",
+                "\"death\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlatformBehavior::IsOnFloor"
+              },
+              "parameters": [
+                "enemy1",
+                "PlatformerObject"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "PlatformBehavior::IsMoving"
+              },
+              "parameters": [
+                "enemy1",
+                "PlatformerObject"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "enemy1",
+                "PlatformerObject",
+                "no"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Opacity"
+              },
+              "parameters": [
+                "enemy1",
+                "-",
+                "250*TimeDelta()"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "enemy1",
+                    "<=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "enemy1",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
         }
       ]
     },
